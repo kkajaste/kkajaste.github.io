@@ -1,0 +1,209 @@
+/*****************************
+  BASE SETUP
+*****************************/
+:root {
+  --d-pink: rgb(255,116,110);
+  --l-pink: rgb(248, 153, 150);
+  --vl-pink: rgb(247, 202, 201);
+  --gray: rgb(136,136,136);
+  --black: #111111;
+  font-family:  'Montserrat', sans-serif;
+}
+html {
+  box-sizing: border-box; /* use IE box model */
+}
+
+*, *:before, *:after {
+  box-sizing: inherit; /* inherit allows for easy creation of a new box model context further down the tree */
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; /* smoother rendering of fonts */
+  margin: 0;
+  padding: 0;
+}
+.line{
+  width: 25px;
+  height: 8px;
+  border-bottom: 3px solid black;
+  position: absolute;
+  }
+
+.img-circle {
+  border-radius: 45%;
+  top: 70%;
+  left: 70%;
+  
+}
+.picture
+{
+  width: 100%;
+  height: 100%;
+  clip-path: circle(33% at 80% 75%);
+  background:url(/images/nighttime.jpg) no-repeat; 
+  background-size: cover;
+}
+.circle-1
+{
+  width: 100%;
+  height: 100%;
+  clip-path: circle(37% at 80% 75%);
+  background-color: var(--d-pink);
+}
+.circle-2
+{
+  width: 100%;
+  height: 100%;
+  clip-path: circle(41% at 80% 75%);
+  background-color: var(--l-pink);
+}
+.circle-3
+{
+  width: 900px;
+  height: 900px;
+  clip-path: circle(45% at 80% 75%);
+  background-color: var(--vl-pink);
+}
+.i-block {
+  display: inline-block;
+}
+.flex {
+  display: flex;
+}
+.f-right {
+  float: right;
+}
+.f-left {
+  float: lef;
+}
+a, .text-decoration-none {
+  text-decoration: none;
+}
+.bg-white {
+  background: white;
+}
+.border-gray {
+  border-top-color: var(--gray);
+  /*border-bottom-color: var(--gray);
+  border-right-color: var(--gray);*/
+  border-left-color: var(--gray);
+}
+.border-radius {
+  border-radius: 25px
+}
+.text-black {
+  color: var(--black);
+}
+.text-gray {
+  color: var(--gray);
+}
+.text-center {
+  text-align: center;
+}
+.text-middle {
+  vertical-align: middle;
+}
+.font-weight-400 {
+  font-weight: 400;
+}
+.font-bold {
+  font-style: bold;
+}
+.font-12 {
+  font-size: 12px;
+}
+.font-14 {
+  font-size: 14px;
+}
+.font-16 {
+  font-size: 16px;
+}
+.font-24 {
+  font-size: 24px;
+}
+.font-40 {
+  font-size: 40px;
+}
+.line-25 {
+  line-height: 25px;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.mp-0 {
+  padding: 0px;
+  margin: 0px;
+}
+.mt--600 {
+  margin-top: -600px;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+.mt-30 {
+  margin-top: 30px;
+}
+.mt-40 {
+  margin-top: 40px;
+}
+.mt-60 {
+  margin-top: 60px;
+}
+.mt-70 {
+  margin-top: 70px;
+}
+.mt-200 {
+  margin-top: 200px;
+}
+.ml--50 {
+  margin-left: -50px
+}
+.ml-15 {
+  margin-left: 15px
+}
+.ml-40 {
+  margin-left: 40px
+}
+.ml-80 {
+  margin-left: 80px
+}
+.ml-170 {
+  margin-left: 170px
+}
+.ml-400 {
+  margin-left: 400px;
+}
+.ml-700 {
+  margin-left: 700px;
+}
+.ml-auto {
+  margin-left: auto;
+}
+.mr-40 {
+  margin-right: 40px
+}
+.px-20 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.py-5 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.height-30 {
+  height: 30px;
+}
+.width-20 {
+  width: 20;
+}
+.width-400 {
+  width: 400;
+}
+.width-420 {
+  width: 420;
+}
+.rotate-90 {
+  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+}
