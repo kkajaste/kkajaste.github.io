@@ -41,7 +41,7 @@ li {
   margin-bottom: 15%;
 }
 #waves {
-  background-image: url("../../filo-dark-theme-landing-page/fylo-dark-theme-landing-page-master/fylo-dark-theme-landing-page-master/images/bg-curvy-desktop.svg");
+  background-image: url("../images/bg-curvy-desktop.svg");
   background-repeat: no-repeat;
   background-position: 100% 110%;
 }
@@ -219,18 +219,19 @@ hr {
 }
 .inputBlock {
   display: flex;
+  justify-content: center;
   padding-bottom: 3%;
-  margin-left: 15%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 #inputSection {
-  //width: 70%;
-  //align-items:flex-end;
   margin: 0;
 }
 #getStarted {
  //margin-left: 10%;
   height: 40px;
   padding: 10px 20px;
+  width: 200px;
 }
 footer {
   background-color: $footer-blue;
@@ -294,7 +295,7 @@ footer {
     margin: 15%;
   }
   #waves {
-    background-image: url("../../filo-dark-theme-landing-page/fylo-dark-theme-landing-page-master/fylo-dark-theme-landing-page-master/images/bg-curvy-mobile.svg");
+    background-image: url("../images/bg-curvy-mobile.svg");
     background-repeat: no-repeat;
     background-position: 100% 110%;
   }

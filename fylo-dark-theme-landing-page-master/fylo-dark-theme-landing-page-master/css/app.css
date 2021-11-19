@@ -1,0 +1,57 @@
+html, body, #root {
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  padding: 1em 0;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  padding: 1em 0;
+}
+
+.main {
+  text-align: center;
+  min-height: 100%;
+  background: #ddd;
+}
+
+.header {
+  background: #fa7740;
+  color: #fff;
+}
+
+.header__logo {
+  width: 60px;
+  height: 60px;
+  background: url("../img/webpack-logo.jpeg") no-repeat center center;
+  background-size: contain;
+  display: inline-block;
+}
+
+.box {
+  background: #3fa2ce;
+  padding: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.logo {
+  margin: 20px 0;
+  height: 150px;
+}
